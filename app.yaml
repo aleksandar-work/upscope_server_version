@@ -1,0 +1,15 @@
+#env: standard
+#runtime: nodejs10
+runtime: nodejs
+env: flex
+
+#CHANGE TO DEFAULT
+service: default
+default_expiration: "1m"
+
+manual_scaling:
+  instances: 1
+
+#network:
+#  session_affinity: true
+# [END appengine_websockets_yaml]

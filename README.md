@@ -1,1 +1,2 @@
-# upscope_server_version
+# AutoEz-Server
+Server Info

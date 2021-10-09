@@ -1,0 +1,30 @@
+#POST https://autoezserver.appspot.com/socket.io/biz/auth/tokensignin
+
+GET https://autoezserver.appspot.com/
+
+###
+
+POST http://localhost:8080/socket.io/biz/auth/tokensignin
+Content-Type: application/json
+
+{
+  "name": "Marco Giuntini",
+  "userToken": "ag5wfmF1dG9lenNlcnZlcnIUCxIHbGljZW5zZRiAgICYpteACgw"
+}
+###
+GET http://localhost:8080/license?domain=victorydelmont.com
+
+###
+
+http://localhost:8080?domain=karan.in
+
+###
+GET https://autoezserver.appspot.com/license?domain=victorydelmont.com
+
+###
+GET http://localhost:8080/biz/apt/all/?domain=marco.com
+
+###
+GET http://35.192.134.90/output-onlinecsvtools.txt
+
+###
